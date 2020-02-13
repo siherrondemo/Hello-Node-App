@@ -5,7 +5,7 @@ import { withLDConsumer } from 'launchdarkly-react-client-sdk';
 const LaunchDarkly = require('launchdarkly-node-server-sdk');
 
 // TODO : Enter your LaunchDarkly SDK key here
-const client = LaunchDarkly.init("sdk-6886d82f-4487-4073-8977-dd625dfbe55e");
+const client = LaunchDarkly.init("--- Your SDK Key Here --- ");
 
 //const client = LaunchDarkly.init("5dd325bdc3a8bb0968c8ab7f");
 const user = {
